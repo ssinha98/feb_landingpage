@@ -1,5 +1,6 @@
 "use client";
 import "./globals.css";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -72,22 +73,24 @@ export default function Home() {
                 power your agents
               </p>
             </div>
-            <div className="flex-1">
-              <img
+            <div className="flex-1 relative h-[300px]">
+              <Image
                 src="/import_demo.gif"
                 alt="Import Demo"
-                className="rounded-lg w-full h-auto"
+                fill
+                className="rounded-lg object-contain"
               />
             </div>
           </div>
 
           {/* Row 2: Image Left, Text Right */}
           <div className="flex items-start gap-12 mb-20">
-            <div className="flex-1">
-              <img
+            <div className="flex-1 relative h-[300px]">
+              <Image
                 src="/notebook.gif"
                 alt="Notebook Demo"
-                className="rounded-lg w-full h-auto"
+                fill
+                className="rounded-lg object-contain"
               />
             </div>
             <div className="flex-1">
@@ -115,11 +118,12 @@ export default function Home() {
                 money have they saved you?
               </p>
             </div>
-            <div className="flex-1">
-              <img
+            <div className="flex-1 relative h-[300px]">
+              <Image
                 src="/manage_agents.gif"
                 alt="Manage Agent Demo"
-                className="rounded-lg w-full h-auto"
+                fill
+                className="rounded-lg object-contain"
               />
             </div>
           </div>
