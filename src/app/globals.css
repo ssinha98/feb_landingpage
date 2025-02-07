@@ -19,3 +19,17 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.highlight-yellow {
+  background: #FED766;
+  padding: 0 4px;
+  border-radius: 4px;
+  color: #000;
+}
+
+.highlight-blue {
+  background: #97EFE9;
+  padding: 0 4px;
+  border-radius: 4px;
+  color: #000;
+}
