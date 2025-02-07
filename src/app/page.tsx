@@ -113,8 +113,8 @@ export default function Home() {
               </h3>
               <p className="text-gray-300 mt-2">
                 Stay on top of how many agents you have in your organisation -
-                what they're up to, what access/permissions they have, what
-                tools they're using, how much do they cost, and how much time or
+                what they&apos;re up to, what access/permissions they have, what
+                tools they&apos;re using, how much do they cost, and how much time or
                 money have they saved you?
               </p>
             </div>
